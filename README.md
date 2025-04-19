@@ -28,26 +28,30 @@ One Excel file:
 
 Script Descriptions  
 
-‘Streamline_CorticalMovie5.m’   
-  Creates videos and snapshots of cortical high-gamma dynamics.
-
+‘Streamline_CorticalMovie5.m’  
+creates videos and snapshots showing cortical high-gamma dynamics.  
+  
 ‘Streamline_STEP7_5.m’  
-  Detects significant high-gamma augmentation/attenuation in each ROI   
-  (approx. 12 minutes total).
-
+detects significant group-level high-gamma augmentation/attenuation in each ROI  
+(approx. 12 minutes total).  
+  
 ‘Streamline_STEP8_CompOff2.m’  
 ‘Streamline_STEP8_CompOn2.m’  
 ‘Streamline_STEP8_RespOn2.m’  
-  Detect pairs of ROIs that exhibit overlapping high-gamma enhancement/suppression across 5 or more bins   
-  (each takes approx. 45 minutes).
-
+identify pairs of ROIs that exhibit significant and simultaneous high-gamma augmentation/attenuation at consecutive five or more time bins  
+(each takes approx. 45 minutes).  
+  
 ‘Streamline_STEP9_1.m’  
-  Identifies tracts located in folder C based on the combinations calculated in STEP8   
-  (approx. 1 minute total).
-
+identifies tracts stored in folder C based on the pairs of ROIs identified in STEP8 above  
+(approx. 1 minute total).  
+  
 ‘Streamline_STEP10_1.m’  
-  Applies transparency to the appearance/disappearance of tracts in the video   
-  (approx. 1 minute total).
+adjusts the opacity of white matter tracts in the video  
+(approx. 1 minute total).  
+  
+‘Streamline_STEP11_4.m’  
+creates videos and snapshots of functional connectivity/coactivation network.  
+
 
 ‘Streamline_STEP11_4.m’  
   Creates videos and snapshots of functional connectivity.
